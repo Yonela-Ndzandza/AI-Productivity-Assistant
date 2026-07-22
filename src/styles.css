@@ -70,7 +70,7 @@
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.2 0.02 260);
 
-  --primary: oklch(0.7 0.17 165); /* emerald #10B981 */
+  --primary: #800080; /* purple */
   --primary-foreground: oklch(0.99 0 0);
 
   --secondary: oklch(0.97 0.02 60); /* soft beige */
