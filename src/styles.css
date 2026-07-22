@@ -53,9 +53,9 @@
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
 
-  --gradient-hero: linear-gradient(135deg, oklch(0.72 0.16 340) 0%, oklch(0.68 0.18 300) 100%);
-  --gradient-primary: linear-gradient(135deg, oklch(0.72 0.17 165) 0%, oklch(0.66 0.19 155) 100%);
-  --gradient-soft: linear-gradient(135deg, oklch(0.97 0.03 340) 0%, oklch(0.96 0.03 300) 100%);
+  --gradient-hero: linear-gradient(135deg, #800080 0%, #a855f7 100%);
+  --gradient-primary: linear-gradient(135deg, #800080 0%, #6b21a8 100%);
+  --gradient-soft: linear-gradient(135deg, oklch(0.97 0.03 300) 0%, oklch(0.96 0.03 280) 100%);
   --shadow-card: 0 1px 2px oklch(0.2 0.02 260 / 0.04), 0 8px 24px -8px oklch(0.2 0.05 300 / 0.08);
   --shadow-glow: 0 10px 40px -10px oklch(0.72 0.16 340 / 0.4);
 }
