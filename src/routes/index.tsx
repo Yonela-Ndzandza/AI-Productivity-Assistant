@@ -42,7 +42,7 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "Dashboard — GlowFlow AI" },
       {
         property: "og:description",
-        content: "Productivity and wellness at a glance.",
+        content: "Your daily overview: wellness score, meal plan, tasks, and AI recommendations.",
       },
     ],
   }),

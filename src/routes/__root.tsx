@@ -78,21 +78,25 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "GlowFlow AI — Productivity & Wellness Assistant" },
+      { title: "Dashboard — GlowFlow AI" },
       {
         name: "description",
         content:
-          "GlowFlow AI is an AI-powered workplace productivity and wellness assistant designed for women managing hormonal acne.",
+          "Your daily overview: wellness score, meal plan, tasks, and AI recommendations.",
       },
       { name: "author", content: "GlowFlow AI" },
-      { property: "og:title", content: "GlowFlow AI — Productivity & Wellness Assistant" },
+      { property: "og:title", content: "Dashboard — GlowFlow AI" },
       {
         property: "og:description",
         content:
-          "Plan meals, tame flare-ups, and get more done — GlowFlow AI blends productivity tools with gut-friendly wellness support.",
+          "Your daily overview: wellness score, meal plan, tasks, and AI recommendations.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Dashboard — GlowFlow AI" },
+      { name: "twitter:description", content: "Your daily overview: wellness score, meal plan, tasks, and AI recommendations." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f4b5e8b7-dc8c-492f-b61e-4659ab745e56/id-preview-bb5bb7f2--feb982c6-09a2-48bb-a9df-e5e8c9ea3a0e.lovable.app-1784725812379.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f4b5e8b7-dc8c-492f-b61e-4659ab745e56/id-preview-bb5bb7f2--feb982c6-09a2-48bb-a9df-e5e8c9ea3a0e.lovable.app-1784725812379.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
