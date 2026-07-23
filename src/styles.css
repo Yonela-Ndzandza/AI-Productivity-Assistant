@@ -161,12 +161,6 @@
 
   body {
     background-color: var(--color-background);
-    background-image: linear-gradient(rgba(255, 182, 193, 0.35), rgba(255, 182, 193, 0.55)),
-      url("/__l5e/assets-v1/8cc4fcba-9a62-49a6-8d61-ce518aca484a/pink-water-bg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
     color: var(--color-foreground);
     font-feature-settings:
       "rlig" 1,
