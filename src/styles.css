@@ -62,7 +62,7 @@
 
 :root {
   --radius: 0.9rem;
-  --background: #ffb6c1; /* light pink */
+  --background: #e8afd4; /* pink from sidebar water image */
   --foreground: oklch(0.2 0.02 260);
 
   --card: oklch(1 0 0);
