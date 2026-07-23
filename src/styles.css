@@ -65,9 +65,9 @@
   --background: #e8afd4; /* pink from sidebar water image */
   --foreground: oklch(0.2 0.02 260);
 
-  --card: oklch(1 0 0);
+  --card: #fff5f8;
   --card-foreground: oklch(0.2 0.02 260);
-  --popover: oklch(1 0 0);
+  --popover: #fff5f8;
   --popover-foreground: oklch(0.2 0.02 260);
 
   --primary: #800080;
@@ -91,7 +91,7 @@
   --warning-foreground: oklch(0.2 0.02 260);
 
   --border: oklch(0.92 0.01 280);
-  --input: oklch(0.94 0.01 280);
+  --input: #fff5f8;
   --ring: #800080;
 
   --chart-1: #800080;
@@ -100,7 +100,7 @@
   --chart-4: oklch(0.68 0.18 300);
   --chart-5: oklch(0.78 0.16 75);
 
-  --sidebar: oklch(1 0 0);
+  --sidebar: #fff5f8;
   --sidebar-foreground: oklch(0.25 0.02 260);
   --sidebar-primary: #800080;
   --sidebar-primary-foreground: oklch(0.99 0 0);
