@@ -98,7 +98,10 @@ export function AppShell({ children }: { children?: ReactNode }) {
               className="absolute inset-0 bg-black/40"
               onClick={() => setMobileOpen(false)}
             />
-            <aside className="absolute left-0 top-0 h-full w-72 bg-sidebar p-4 shadow-xl animate-slide-in-right">
+            <aside
+              className="absolute left-0 top-0 h-full w-72 p-4 shadow-xl animate-slide-in-right bg-cover bg-center"
+              style={{ backgroundImage: "url('/__l5e/assets-v1/8cc4fcba-9a62-49a6-8d61-ce518aca484a/pink-water-bg.jpg')" }}
+            >
               <div className="mb-4 flex items-center justify-between">
                 <span className="font-display font-bold">Menu</span>
                 <button
