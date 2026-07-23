@@ -53,6 +53,5 @@ GlowFlow AI is a SaaS-style web application that bridges workplace productivity 
 
    Navigate to `http://localhost:8080` in your browser.
 
-## Team Members
 
-This project was developed as a capstone project by the GlowFlow AI team.
+
