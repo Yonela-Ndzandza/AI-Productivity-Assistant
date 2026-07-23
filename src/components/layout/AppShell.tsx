@@ -84,7 +84,10 @@ export function AppShell({ children }: { children?: ReactNode }) {
 
       <div className="flex">
         {/* Sidebar - desktop */}
-        <aside className="sticky top-16 hidden h-[calc(100vh-4rem)] w-64 shrink-0 border-r border-border bg-sidebar p-3 lg:block">
+        <aside
+          className="sticky top-16 hidden h-[calc(100vh-4rem)] w-64 shrink-0 border-r border-border p-3 lg:block bg-cover bg-center"
+          style={{ backgroundImage: "url('/__l5e/assets-v1/8cc4fcba-9a62-49a6-8d61-ce518aca484a/pink-water-bg.jpg')" }}
+        >
           <SidebarNav pathname={pathname} />
         </aside>
 
